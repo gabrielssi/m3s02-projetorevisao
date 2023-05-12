@@ -3,9 +3,11 @@ package br.com.canasvieiras.m3s02projetorevisao.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.math.BigInteger;
 import java.util.*;
 @Data
 @Entity
+@Table(name="categoria")
 public class Categoria {
 
     @Id
@@ -22,6 +24,10 @@ public class Categoria {
     private String nome;
 
     private String descricao;
+
+
+
+
 
 
 }
